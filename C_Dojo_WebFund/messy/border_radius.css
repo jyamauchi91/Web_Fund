@@ -1,0 +1,17 @@
+#searchButton {
+    border-radius: 10px;
+    border-color: darkseagreen;
+    color: darkseagreen;
+    background-color: aliceblue;
+}
+.plusButton {
+    border-radius: 50%;
+    border-color: darkseagreen;
+    color: aliceblue;
+    background-color: darkseagreen;
+}
+.accountButton {
+    background-color: blue;
+    color: aliceblue;
+    box-shadow: 3px 1px 1px black;
+}

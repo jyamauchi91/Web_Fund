@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Bear Berries</title>
+</head>
+<body>
+    <div id="navBar">
+        <h1>Berry Nice To See You!</h1>
+        <form>
+            <input type="search" placeholder="search">
+        </form>
+        <div id="navLinks">
+            <a href="#">Home</a> |
+            <a href="#">Explore</a> |
+            <a href="#">Berries</a>
+        </div>
+    </div>
+    <div id="container">
+        <div id="leftCol">
+            <h2>Which Bear is Cuter?</h2>
+            <div id="cuteBear">
+                <div class="bear">
+                    <img src="./images/otherbear.png" alt="otherBear">
+                    <div class="berry">
+                        <button onclick="cutiePoints(add2)"><img src="./images/blueberry.jpg" alt="blueberry"></button>
+                        <p>Current cutie points <span id="add2">0</span></p>
+                    </div>
+                    </div>
+                    <div class="bear">
+                        <img src="./images/polarbaby.png" alt="polarbaby">
+                        <div class="berry">
+                            <button onclick="cutiePoints(add1)"><img src="./images/huckleberry.png" alt="huckleberry"></button>
+                            <p>Current cutie points <span id="add1">0</span></p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div id="rightCol">
+            <div id="rightBox1">
+                <h2 id="bearId">Bear Name</h2>
+                <img src="./images/blackbear.png" alt="blackbear">
+                <div class="berry">
+                    <button onclick="nameChange(bearId)"><img src="./images/strawberry.png" alt="strawberry"></button>
+                    <p>Click berry button to change bear name</p>
+                </div>
+            </div>
+            <div id="rightBox2">
+                <h2>Todo List</h2>
+                <form onsubmit="addTdo(event)">
+                    <input type="text" id="newItem" placeholder="add todo here">
+                    <input type="submit" value="add">
+                </form>
+                <ul id="todoList"></ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

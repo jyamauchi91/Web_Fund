@@ -1,0 +1,35 @@
+.row {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+}
+
+.col {
+    margin: 10px;
+    background-color: crimson;
+    height: 100px;
+    width: 300px;
+    flex: 1;
+
+}
+
+.col-2 {
+    margin: 10px;
+    background-color: crimson;
+    height: 100px;
+    width: 300x;
+    flex: 2;
+}
+
+.col-3 {
+    margin: 10px;
+    background-color: crimson;
+    height: 100px;
+    width: 300x;
+    flex: 3;
+}
+
+    

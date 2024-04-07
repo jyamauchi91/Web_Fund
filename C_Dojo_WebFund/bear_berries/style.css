@@ -1,0 +1,46 @@
+html {
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+}
+
+#leftCol {
+    flex: 2;
+    text-align: center;
+}
+
+#rightCol {
+    flex: 1;
+}
+
+button > img {
+    height: 50px;
+}
+
+img {
+    height: 200px;
+}
+
+#cuteBear {
+    display: flex
+}
+
+.bear {
+    flex: 1;
+}
+
+.berry {
+    display: flex;
+    gap: 10px;
+}
+

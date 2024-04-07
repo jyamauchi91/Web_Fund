@@ -1,0 +1,61 @@
+html {
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    
+}
+#main-page {
+    background-color: crimson;
+    border: solid darkblue;
+    border-top: 70px solid darkblue;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 800px;
+    margin-top: 50px;
+}
+
+
+#main-page > img {
+    height: 90px;
+    margin-top: -45px;
+}
+
+#statement {
+    margin-top: 0px;
+}
+
+.state {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.residence {
+    display: flex;
+    align-items: center;
+    
+}
+
+    .residence > img {
+        height: 30px;
+        padding-right: 10px;
+    }
+
+.titles {
+    display: flex;
+    gap: 10px;
+}
+
+    .titles > p {
+        margin-bottom: 10px;
+    }
+
+.edit-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .edit-profile > img {
+        height: 30px;
+        padding-right: 10px;
+    }

@@ -1,0 +1,42 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+.container {
+    height: auto;
+    width: 800px;
+    margin: 60px;
+}
+
+.star-trek {
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+}
+
+.science {
+    display: flex;
+    background-color: gray;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+}
+
+.coders {
+    display: flex;
+    background-color: green;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+}

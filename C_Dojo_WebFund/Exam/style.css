@@ -1,0 +1,92 @@
+#topText {
+    color: aliceblue;
+    background-color: rebeccapurple;
+    text-align: center;
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+#navBar img {
+    height: 40px;
+}
+
+#navBar div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#linkBar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#products {
+    text-decoration: underline;
+}
+
+#container {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+    background-color: rebeccapurple;
+}
+
+#bestSell {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#bestSell div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#pickOne {
+    font-size: larger;
+}
+
+#buySection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#buySection img {
+    height: 150px;
+}
+
+#buySection button {
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rebeccapurple;
+    color: aliceblue;
+}
+
+#buySection p {
+    margin-left: 20px;
+    font-size: larger;
+}

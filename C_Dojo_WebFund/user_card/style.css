@@ -1,0 +1,116 @@
+
+
+h2 {
+    background-color: darkred;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    background-color: darkgrey;
+}
+
+#nav-bar {
+background-color: darkred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#container {
+    display: flex;
+}
+
+#user-card {
+    border-top: 90px solid aquamarine;
+    padding-left: 20px;
+}
+
+
+#profileImg {
+    height: 90px;
+    margin-top: -45px;
+    border-radius: 50%;
+}
+
+/* #residence {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+} */
+
+#marker  {
+        height: 30px;
+    }
+
+#left-col {
+    border: 2px solid black;
+    flex: 2;
+    margin-right: 30px;
+    /* padding-left: 10px; */
+}
+
+#right-col {
+    border: 2px solid black;
+    flex: 1;
+    padding-top: 0px;
+}
+
+#requests1 {
+    display: flex;
+    align-items: center;
+}
+
+#adrien {
+    display: flex;
+}
+
+#request2 {
+    display: flex;
+}
+
+#alayne {
+    display: flex;
+}
+
+
+    #circle1 > img {
+        height: 30px;
+    }
+
+    #circle2 > img {
+        height: 30px;
+    }
+
+
+.cRequest {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.edit-profile {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+    .edit-profile > img {
+        height: 30px;
+    }
+    
+
+

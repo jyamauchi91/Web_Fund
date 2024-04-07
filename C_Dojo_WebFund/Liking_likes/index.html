@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Liking Likes</title>
+</head>
+<body>
+    <div id="userBox">
+        <div id="someUser">
+            <h2>Some User</h2>
+            <div>
+                <p><span id="count">3</span> like(s)</p>
+                <button onclick="add1(count)">like</button>
+            </div>
+        </div>
+        <p>This guy thinks coding is rad!!!</p>
+    </div>
+    <h1>Network</h1>
+    <h2 id="myFeed">Your Feed</h2>
+    <div id="container">
+        <div id="leftCol">
+            <div id="userCard">
+                <img src="./images/user-circle.png" alt="user-circle">
+                <a href="#">Add an avatar</a>
+                <p class="name">James Doe</p>
+            </div>
+        </div>
+        <div id="rightCol">
+            <div id="rightBox1">
+                <div id="neil">
+                    <p class="name">Neil M</p>
+                    <div>
+                        <p><span id="feed1">9</span> like(s)</p>
+                        <button onclick="moreLikes(feed1)">Like</button>
+                    </div>
+                </div>
+                <p>I just set up this new discord bot, let me what you all think. <a href="#">link</a></p>
+            </div>
+            <div id="rightBox2">
+                <div id="nichole">
+                    <p class="name">Nichole K</p>
+                    <div>
+                        <p><span id="feed2">12</span> like(s)</p>
+                        <button onclick="accumulate(feed2)">Like</button>
+                    </div>
+                </div>
+                <p>Just finished my <a href="#">next comic</a> check it out.</p>
+            </div>
+            <div id="rightBox3">
+                <div id="jim">
+                    <p class="name">Jim R</p>
+                    <div>
+                        <p><span id="feed3">9</span> like(s)</p>
+                        <button onclick="plus1(feed3)">Like</button>
+                    </div>
+                </div>
+                <p>I can't stop listening to the <a href="#">new album.</a> Who else is likeing it?</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

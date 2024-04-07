@@ -1,0 +1,21 @@
+h1 {
+    color: aliceblue;
+    background-color: black;
+}
+span {
+    color: aqua;
+}
+h2 {
+    background-color: rebeccapurple;
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+}
+h3 {
+    background-color: cornflowerblue;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: 100;
+    font-family: serif;
+}

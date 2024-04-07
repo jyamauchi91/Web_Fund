@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Making Connections</title>
+</head>
+<body>
+    <div id="navBar">
+        <h1>Profile</h1>
+        <div>
+            <a class="navLinks" href="#">Home</a>
+            <a class="navLinks" href="#">My Profile</a>
+            <a class="navLinks" href="#">Find Connections</a>
+            <button onclick="logInOut(this)">Sign Out</button>
+        </div>
+    </div>
+    <div id="container">
+        <div id="leftCol">
+            <div id="leftBox1">
+                <img id="userCircle" src="./images/user-circle.png" alt="user-circle">
+                <h2 id="userId">Jane Doe</h2>
+                <div id="state">
+                    <img id="mapMarker" src="./images/map-marker.png" alt="map-marker">
+                    <p>Minnesota</p>
+                </div>
+                <p>Developer | Engineer | Problem Solver</p>
+                <div id="editProfile">
+                    <img id="gear" src="./images/gear.png" alt="gear-image">
+                    <a href="#" onclick="nameChange(userId)">edit profile</a>
+                </div>
+            </div>
+            <div id="leftBox2">
+                <h3>Education</h3>
+                <p>Coding Dojo - Full Stack Bootcamp</p>
+                <p>Dec 2019 - Mar 2020</p>
+                <p>Triple black belt in Python, Mern, and C#</p>
+            </div>
+        </div>
+        <div id="rightCol">
+            <div id="rightBox1">
+                <h3><button id="num1">2</button>Connection Requests</h3>
+                <div id="paul">
+                    <div>
+                        <img src="./images/user-circle.png" alt="user-circle">
+                        <p>Paul</p>
+                    </div>
+                    <div id="circle1">
+                        <button onclick="goAway(paul), increase(num2), decrease(num1) "><img src="./images/accept-circle.png" alt="accept-circle"></button>
+                        <button onclick="goAway(paul), increase(num2), decrease(num1)"><img src="./images/close-circle.png" alt="close-circle"></button>
+                    </div>
+                </div>
+                <div id="stanley">
+                    <div>
+                        <img src="./images/user-circle.png" alt="user-circle">
+                        <p>Stanley</p>
+                    </div>
+                    <div id="circle2">
+                        <button onclick="goAway(stanley), increase(num2), decrease(num1)"><img src="./images/accept-circle.png" alt="accept-circle"></button>
+                        <button onclick="goAway(stanley), increase(num2), decrease(num1)"><img src="./images/close-circle.png" alt="close-circle"></button>
+                    </div>
+                </div>
+            </div>
+            <div id="rightBox2">
+                <h3><button id="num2">418</button>Your Connections</h3>
+                <div class="friends">
+                    <img src="./images/user-circle.png" alt="user-circle">
+                    <p>Ace</p>
+                </div>
+                <div class="friends">
+                    <img src="./images/user-circle.png" alt="user-circle">
+                    <p>Frehley</p>
+                </div>
+                <div class="friends">
+                    <img src="./images/user-circle.png" alt="user-circle">
+                    <p>Peter</p>
+                </div>
+                <div class="friends">
+                    <img src="./images/user-circle.png" alt="user-circle">
+                    <p>Chris</p>
+                </div>
+                <a href="#">View More</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

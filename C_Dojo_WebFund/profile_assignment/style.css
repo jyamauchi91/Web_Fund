@@ -1,0 +1,183 @@
+#nav-bar {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+    #nav-bar > button {
+        background-color: blueviolet;
+
+    }
+
+    #nav-bar > h1 {
+        color: aliceblue;
+}
+
+#nav-bar a {
+    color: black;
+    text-decoration: none;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+#container {
+    display: flex;
+    margin-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#left-col {
+    flex: 2;
+}
+
+#user-card {
+    border: 2px solid black;
+    border-top: 90px solid aquamarine;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#profileImg {
+    height: 90px;
+    border-radius: 50%;
+    margin-top: -45px;
+}
+
+#minnesota {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+}
+
+#marker {
+    height: 30px;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.edit-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    .edit-profile > img {
+        height: 30px;
+    }
+
+#ed-box {
+    border: 2px solid black;
+}
+
+    #ed-box p {
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+#right-col {
+    flex: 1;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#con-box1 {
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#num1 {
+    border-radius: 100%;
+}
+
+#adrien {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#adrien div {
+    display: flex;
+    gap: 10px;
+}
+#alayne {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#alayne div {
+    display: flex;
+    gap: 10px;
+}
+
+
+.cRequest {
+    height: 60px;
+    border-radius: 50%;
+}
+
+.circle-img {
+    height: 50px;
+    padding-right: 10px;
+}
+
+#con-box2 {
+    border: 2px solid black;
+    align-items: center;
+}
+
+#con-box2 div {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+#con-box2 a {
+    border-top: 5px solid lightgray;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#num2 {
+    border-radius: 50%;
+}
+
+.friends {
+    height: 60px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    background-color: aquamarine;
+    margin-top: 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+

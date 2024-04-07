@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>PlushStar</title>
+</head>
+<body>
+    <p id="topText">FREE PHONE GRIP ON SELECT PURCHACES</p>
+    <div id="navBar">
+        <h1>PlushStar</h1>
+        <form>
+            <input type="search" placeholder="Search">
+        </form>
+        <div>
+            <p id="add1">0</p>
+            <img src="./images/cart-dark.png" alt="cart">
+        </div>
+    </div>
+    <div id="linkBar">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#" id="products">Products</a>
+        <a href="#">Sales</a>
+        <a href="#">Blog</a>
+        <a href="#" onclick="contactUs()">Contact Us</a>
+    </div>
+    <div id="container">
+        <h2>Plushy Store</h2>
+        <div id="bestSell">
+            <p>62 Products, sorted by <span id="pickOne">Best Selling</span></p>
+            <div>
+                <p>Sort By</p>
+                <select id="sortBy" onchange="changeName()">
+                    <option value="Best Selling">Best Selling</option>
+                    <option value="Price">Price</option>
+                </select>
+            </div>
+        </div>
+        <div id="buySection">
+            <div class="purchasing">
+                <img src="./images/product-image.png" alt="product-image">
+                <p>Mischief Mouse</p>
+                <button onclick="increase(add1)">BUY</button>
+            </div>
+            <div class="purchasing">
+                <img src="./images/product-image.png" alt="product-image">
+                <p>Shy Shrew</p>
+                <button onclick="increase(add1)">BUY</button>
+            </div>
+            <div class="purchasing">
+                <img src="./images/product-image.png" alt="product-image">
+                <p>Hangry Hampster</p>
+                <button onclick="increase(add1)">BUY</button>
+            </div>
+            <div class="purchasing">
+                <img src="./images/product-image.png" alt="product-image">
+                <p>Chilly Chinchilla</p>
+                <button onclick="increase(add1)">BUY</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

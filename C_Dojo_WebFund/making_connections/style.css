@@ -1,0 +1,148 @@
+h1 {
+    color: aliceblue;
+}
+
+#navBar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#navBar button {
+    margin-left: 10px;
+}
+
+.navLinks {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#leftCol {
+    flex: 2;
+}
+
+#leftBox1 {
+    border: 2px solid black;
+    border-top: 70px solid purple;
+    padding-left: 10px;
+}
+
+#userCircle {
+    height: 90px;
+    margin-top: -40px;
+}
+
+#mapMarker {
+    height: 30px;
+}
+
+#gear {
+    height: 30px;
+}
+
+#state {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#editProfile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#state {
+    font-size: larger;
+}
+
+#leftBox2 {
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+h3 {
+    background-color: purple;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+
+#leftBox2 p {
+    padding-left: 10px;
+}
+
+#rightCol {
+    flex: 1;
+}
+
+#rightBox1 {
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+#rightBox1 img {
+    height: 40px;
+    padding-left: 10px;
+}
+
+#paul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#paul div {
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+#stanley {
+    display: flex;
+    justify-content: space-between;
+}
+
+#stanley div {
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+#circle1 button {
+    margin-bottom: 10px;
+}
+
+#circle2 {
+    margin-bottom: 10px;
+}
+
+#rightBox2 {
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+#rightBox2 img {
+    height: 40px;
+    padding-bottom: 10px;
+}
+
+.friends {
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+}

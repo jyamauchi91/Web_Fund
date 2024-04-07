@@ -1,0 +1,122 @@
+#userBox {
+    border: 2px solid black;
+    height: 200px;
+    width: 900px;
+}
+
+#userBox p {
+    padding-left: 10px;
+}
+
+#someUser {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#someUser div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#container {
+    display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+h1 {
+    color: aliceblue;
+    background-color: black;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+#myFeed {
+    text-align: center;
+}
+
+#leftCol {
+    flex: 1;
+}
+
+#leftCol img {
+    height: 50px;
+}
+
+#userCard {
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#rightCol {
+    flex: 2;
+    margin-left: 10px;
+}
+
+#rightBox1 {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#rightBox1 div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#neil {
+    display: flex;
+    justify-content: space-between;
+}
+
+#rightBox2 {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#rightBox2 div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#nichole {
+    display: flex;
+    justify-content: space-between;
+}
+
+#rightBox3 {
+    border: 2px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#rightBox3 div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#jim {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: x-large;
+}
+
+button {
+    background-color: goldenrod;
+    box-shadow: 3px 1px 1px black;
+}
+
